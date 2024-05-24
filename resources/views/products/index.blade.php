@@ -4,9 +4,15 @@
     {{-- <h2>{{ $title }}</h2> --}}
     {{-- <p>{{ $description }}</p> --}}
 
-    @foreach ( $data as $item )
+    {{-- @foreach ( $data as $item )
 
         <p>{{ $item }}</p>
 
-    @endforeach
+    @endforeach --}}
+
+    {{-- {{ $id}} --}}
+    {{-- {{ $str}} --}}
+    
+    {{ $id}}
+    {{ $str}}
 </div>
